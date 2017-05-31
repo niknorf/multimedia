@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#log {
+  height: 15em;
+  background: #ccc;
+  margin: 0 auto;
+  overflow-y: scroll;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#form{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.input {
+  margin: 1em auto;
+  padding: 5px;
+  width: 100%;
+  line-height: 2em;
+  font-size: 1em;
+  display: block;
+}
+
+.button {
+  background-color: #ccc;
+  width: 100%;
+  margin: 1em auto;
+  max-height: 100%;
+  line-height: 2em;
+  font-size: 1em;
+  display: block;
+}

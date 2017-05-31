@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color: grey;
+}
+
+.label {
+  margin-right: 2em;
+}
+
+#btn {
+  border-radius: 10px;
+}

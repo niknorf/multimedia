@@ -1,0 +1,37 @@
+.container {
+  padding: 2em;
+}
+
+.col {
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#results img {
+  width: 30%;
+  margin: .4em;
+  object-fit: cover;
+  min-height: 200px;
+}
+
+
+@media screen and (max-width: 768px){
+  #results img{
+    width: 45%;
+    margin: .4em;
+    object-fit: cover;
+    min-height: 200px;
+  }
+}
